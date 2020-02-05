@@ -17,10 +17,10 @@ def _getToday():
 
 cnxn = pyodbc.connect(
 'Driver={ODBC Driver 13 for SQL Server};'
-'Server=tcp:hor-p-adw002.database.windows.net,1433;'
-'Database=hor_com_p_201809_38_001;'
-'Uid={hqxanalytic};'
-'Pwd={2jdc2fjshGRUuLDMsxxO};'
+'Server=XXXX;'
+'Database=XXXX;'
+'Uid={XXX};'
+'Pwd={XXXX};'
 'Encrypt=yes;'
 'TrustServerCertificate=no;'
 'Connection Timeout=30;'
